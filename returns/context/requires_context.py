@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import (
     TYPE_CHECKING,
     Any,
@@ -316,7 +318,7 @@ class RequiresContext(
         See also:
             https://dev.to/gcanti/getting-started-with-fp-ts-reader-1ie5
 
-        """
+        """  # noqa: F811
         return RequiresContext(identity)
 
     @classmethod

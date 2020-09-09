@@ -5,6 +5,8 @@ For impure result see
 :class:`returns.interfaces.specific.ioresult.IOResultLikeN` type.
 """
 
+from __future__ import annotations
+
 from abc import abstractmethod
 from typing import (
     TYPE_CHECKING,
