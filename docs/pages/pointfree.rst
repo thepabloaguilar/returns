@@ -285,8 +285,6 @@ API Reference
 
 .. autofunction:: returns.pointfree.bind_context_result
 
-.. autofunction:: returns.pointfree.bind_context_ioresult
-
 .. autofunction:: returns.pointfree.bind_async
 
 .. autofunction:: returns.pointfree.bind_awaitable
