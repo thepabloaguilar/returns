@@ -258,6 +258,7 @@ class Result(
         Get value or raise exception.
 
         .. code:: pycon
+          :force:
 
           >>> from returns.result import Failure, Success
           >>> assert Success(1).unwrap() == 1
@@ -267,13 +268,14 @@ class Result(
             ...
           returns.primitives.exceptions.UnwrapFailedError
 
-        """
+        """  # noqa: RST399
 
     def failure(self) -> _ErrorType:
         """
         Get failed value or raise exception.
 
         .. code:: pycon
+          :force:
 
           >>> from returns.result import Failure, Success
           >>> assert Failure(1).failure() == 1
@@ -283,7 +285,7 @@ class Result(
             ...
           returns.primitives.exceptions.UnwrapFailedError
 
-        """
+        """  # noqa: RST399
 
     @classmethod
     def from_value(
