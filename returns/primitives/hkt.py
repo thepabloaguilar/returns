@@ -68,8 +68,8 @@ class KindN(
     ``KindN`` does not exist in runtime. It is used just for typing.
     There are (and must be) no instances of this type directly.
 
-    Implementation details
-    ~~~~~~~~~~~~~~~~~~~~~~
+    **Implementation details**
+
     We didn't use ``ABCMeta`` to disallow its creation,
     because we don't want to have
     a possible metaclass conflict with other metaclasses.

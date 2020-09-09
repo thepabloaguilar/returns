@@ -87,8 +87,7 @@ class Future(
 
     Is not related to ``asyncio.Future`` in any kind.
 
-    Tradeoffs
-    ---------
+    **Tradeoffs**
 
     Due to possible performance issues we move all coroutines definitions
     to a separate module.
@@ -549,8 +548,7 @@ class FutureResult(
     ``FutureResult`` has a lot of composition helpers
     to turn complex nested operations into a one function calls.
 
-    Tradeoffs
-    ~~~~~~~~~
+    **Tradeoffs**
 
     Due to possible performance issues we move all coroutines definitions
     to a separate module.
