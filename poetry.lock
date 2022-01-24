@@ -1235,11 +1235,11 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "slotscheck"
-version = "0.7.0"
+version = "0.8.0"
 description = "Ensure your __slots__ are working properly."
 category = "dev"
 optional = false
-python-versions = ">=3.7.0,<4"
+python-versions = ">=3.6.2,<4"
 
 [package.dependencies]
 click = ">=8.0,<9.0"
@@ -1581,7 +1581,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "c206e8645fb0dc3f9b9d89145e3ebc3aa48d164257c90b38aec4edc9a21aa61f"
+content-hash = "2f11401562366765a9a3e091b3587c2989ca1ce90900eee62d3276307c9b8e88"
 
 [metadata.files]
 alabaster = [
@@ -2297,8 +2297,8 @@ six = [
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
 slotscheck = [
-    {file = "slotscheck-0.7.0-py3-none-any.whl", hash = "sha256:5a0baaf7a4e8c90f3e43ac814e40d8c29d387901bb3a995b64931175b56a37af"},
-    {file = "slotscheck-0.7.0.tar.gz", hash = "sha256:eeddb54588fff3856d975a2273d13d64d77502d91ffa01815a684e066406cddf"},
+    {file = "slotscheck-0.8.0-py3-none-any.whl", hash = "sha256:fbd5df16f1857f11968c3025143c8293477276163d14841d0b67b4e4b06a094f"},
+    {file = "slotscheck-0.8.0.tar.gz", hash = "sha256:e426e4433db85e4fe6b7de3fd2912cc8a9285c6c993da1fe7832a0c9d5ff2654"},
 ]
 smmap = [
     {file = "smmap-5.0.0-py3-none-any.whl", hash = "sha256:2aba19d6a040e78d8b09de5c57e96207b09ed71d8e55ce0959eeee6c8e190d94"},
